@@ -14,7 +14,6 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
-icon: 🔥 # the emoji used as the favicon
 url:  # the base hostname & protocol for your site
 baseurl: /al-folio # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
@@ -44,7 +43,6 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 github_username: # your GitHub user name
-gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
@@ -115,15 +113,7 @@ kramdown:
 
 # Includes & excludes
 include: ['_pages']
-exclude:
-  - bin
-  - Gemfile
-  - Gemfile.lock
-  - vendor
-keep_files:
-  - CNAME
-  - .nojekyll
-  - .git
+exclude: [vendor]
 
 # Plug-ins
 plugins:
@@ -133,9 +123,8 @@ plugins:
   - jekyll/scholar
   - jekyll-twitter-plugin
   - jemoji
-
-# Extras
-github: [metadata]
+  # - bootstrap
+  # - material-sass
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -172,7 +161,7 @@ enable_mansory:             true
 enable_math:                true
 enable_tooltips:            false
 enable_darkmode:            true
-enable_navbar_social:       false
+show_social_icons:          false
 
 # -----------------------------------------------------------------------------
 # Library versions
