@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2020-05-18
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+I joined University College London to work in the <a href="https://www.ucl.ac.uk/steapp/research/digital-technologies-policy-laboratory/cr4b-cyber-readiness-boards" target="blank">CR4B: Cyber Readiness for Boards project</a>
