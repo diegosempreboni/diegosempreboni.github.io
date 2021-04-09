@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: King's College London<a href="#">https://www.kcl.ac.uk/informatics</a>. Address. Contacts. Moto. Etc.
+description: Research Associate @ <a href="https://www.kcl.ac.uk/informatics">King's College London</a>.
 
 profile:
   align: right
