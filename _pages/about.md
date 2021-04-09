@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: King's College London<a href="#">https://www.kcl.ac.uk/informatics</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
