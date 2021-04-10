@@ -1,7 +1,7 @@
 ---
 layout: pdf
 permalink: /curriculum/
-title: Academic Curriculum Vitae
+title: cv
 nav: true
 ---
 
