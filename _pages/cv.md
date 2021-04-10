@@ -12,7 +12,7 @@ pdf_file: "/assets/pdf/Official_Academic_Curriculum_Vitae.pdf"
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 <script type="text/javascript">
 	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
-		var adobeDCView = new AdobeDC.View({clientId: "e98cddb458d34ff69e2d33d5f95eb316", divId: "adobe-dc-view"});
+		var adobeDCView = new AdobeDC.View({clientId: "55cd88f1f8b849739db0fbedbda70040", divId: "adobe-dc-view"});
 		adobeDCView.previewFile({
 			content:{location: {url: "https://documentcloud.adobe.com/view-sdk-demo/PDFs/Bodea Brochure.pdf"}},
 			metaData:{fileName: "Bodea Brochure.pdf"}
