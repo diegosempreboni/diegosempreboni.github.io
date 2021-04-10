@@ -6,5 +6,5 @@ nav: true
 pdf_file: "/assets/pdf/Official_Academic_Curriculum_Vitae.pdf"
 ---
 
- {% pdf {{ page.pdf_file }} no_link %}
-
+<embed src="/assets/pdf/Official_Academic_Curriculum_Vitae.pdf" width="500" height="375" 
+ type="application/pdf">
