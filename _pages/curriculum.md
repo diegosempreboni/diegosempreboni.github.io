@@ -1,6 +1,6 @@
 ---
 layout: pdf
-permalink: /curriculum/
+permalink: /cv/
 title: cv
 nav: true
 ---
