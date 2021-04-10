@@ -6,5 +6,4 @@ nav: true
 pdf_file: "/assets/pdf/Official_Academic_Curriculum_Vitae.pdf"
 ---
 
- {% pdf "/files/pdf/sample.pdf" %}
-
+<iframe src="/assets/pdf/Official_Academic_Curriculum_Vitae.pdf"width="100%" height="100%"></iframe>
