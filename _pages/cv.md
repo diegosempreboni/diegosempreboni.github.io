@@ -14,7 +14,7 @@ pdf_file: "/assets/pdf/Official_Academic_Curriculum_Vitae.pdf"
 	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
 		var adobeDCView = new AdobeDC.View({clientId: "55cd88f1f8b849739db0fbedbda70040", divId: "adobe-dc-view"});
 		adobeDCView.previewFile({
-			content:{location: {url: "https://diegosempreboni.github.io/assets/pdf/Official_Academic_Curriculum_Vitae.pdf"}},
+			content:{location: {url: "https://documentcloud.adobe.com/view-sdk-demo/PDFs/Bodea Brochure.pdf"}},
 			metaData:{fileName: "Bodea Brochure.pdf"}
 		}, {embedMode: "IN_LINE"});
 	});
