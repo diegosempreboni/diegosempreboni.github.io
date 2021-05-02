@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Research Associate @ <a href="https://www.kcl.ac.uk/informatics">King's College London</a>.
+description: 70% Research Associate @ <a href="https://www.kcl.ac.uk/informatics">King's College London</a>, 30% Research Associate @ <a href="https://www.ucl.ac.uk/computer-science/">UCL</a>.
 
 profile:
   align: right
