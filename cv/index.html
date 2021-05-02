@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Diego  Sempreboni, Ph.D. | blank</title>
+<title>Diego  Sempreboni, Ph.D. | cv</title>
 <meta name="description" content="Personal and Academic website of Diego Sempreboni
 ">
 
@@ -16,8 +16,8 @@
 " />
 <meta property="og:type" content="object" />
 <meta property="og:title" content="" />
-<meta property="og:url" content="/blog/index.html" />
-<meta property="og:description" content="blank" />
+<meta property="og:url" content="/cv/" />
+<meta property="og:description" content="cv" />
 <meta property="og:image" content="" />
 
 
@@ -39,7 +39,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/cv/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -117,11 +117,11 @@
           
           
           
-          
-          
-          <li class="nav-item ">
+          <li class="nav-item active">
               <a class="nav-link" href="/cv/">
                 cv
+                
+                <span class="sr-only">(current)</span>
                 
               </a>
           </li>
@@ -157,56 +157,29 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">cv</h1>
+    <p class="post-description"></p>
+  </header>
+
+  <article>
+    <!-- <iframe src="/assets/pdf/Official_Academic_Curriculum_Vitae.pdf" width="100%" height="200%"></iframe> -->
+
+<div id="adobe-dc-view" style="width: 800px;"></div>
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+
+<script type="text/javascript">
+	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+		var adobeDCView = new AdobeDC.View({clientId: "55cd88f1f8b849739db0fbedbda70040", divId: "adobe-dc-view"});
+		adobeDCView.previewFile({
+			content:{location: {url: "https://diegosempreboni.github.io/assets/pdf/Official_Academic_Curriculum_Vitae.pdf"}},
+			metaData:{fileName: "Official_Academic_Curriculum_Vitae.pdf"}
+		}, {embedMode: "IN_LINE"});
+	});
+</script>
 
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/2020/09/28/github-metadata.html">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/2020/09/28/twitter.html">a post with twitter</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>an example of a blog post with twitter</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/2018/12/22/distill.html">a distill-style blog post</a></h3>
-        <p class="post-meta">December 22, 2018</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-  </ul>
-
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blank - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
-
+  </article>
 
 </div>
 
